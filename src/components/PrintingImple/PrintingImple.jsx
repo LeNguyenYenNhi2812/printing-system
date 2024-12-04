@@ -18,7 +18,7 @@ function PrintingImple() {
     try {
       const access = localStorage.getItem('access')
       const res = await axios.get(
-        'https://spss-backend-2.vercel.app /api/users/reset-all-balance/',
+        'https://spss-backend-2.vercel.app/api/users/reset-all-balance/',
         {
           headers: {
             Authorization: `Bearer ${access}`,
@@ -36,7 +36,7 @@ function PrintingImple() {
     try {
       const access = localStorage.getItem('access')
       await axios.post(
-        'https://spss-backend-2.vercel.app /api/users/paper/',
+        'https://spss-backend-2.vercel.app/api/users/paper/',
         {
           amount: data.amount,
         },
@@ -61,7 +61,7 @@ function PrintingImple() {
       const access = localStorage.getItem('access')
 
       await axios.post(
-        'https://spss-backend-2.vercel.app /api/buys/prices/',
+        'https://spss-backend-2.vercel.app/api/buys/prices/',
         {
           price: data.price,
         },
@@ -86,7 +86,7 @@ function PrintingImple() {
       const access = localStorage.getItem('access')
 
       await axios.post(
-        'https://spss-backend-2.vercel.app /api/users/reset-date/',
+        'https://spss-backend-2.vercel.app/api/users/reset-date/',
         {
           resetDate: data.resetDate,
         },

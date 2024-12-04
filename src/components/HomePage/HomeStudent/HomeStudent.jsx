@@ -24,7 +24,7 @@ const HomeStudent = () => {
   const getStatus = async () => {
     try {
       const access = localStorage.getItem('access')
-      const res = await axios.get('https://spss-backend-2.vercel.app /api/users/profile/', {
+      const res = await axios.get('https://spss-backend-2.vercel.app/api/users/profile/', {
         headers: {
           Authorization: `Bearer ${access}`,
         },

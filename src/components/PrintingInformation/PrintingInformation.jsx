@@ -30,7 +30,7 @@ function PrintingInformation() {
       const access = localStorage.getItem('access')
 
       await axios.post(
-        'https://spss-backend-2.vercel.app /api/printers/',
+        'https://spss-backend-2.vercel.app/api/printers/',
         {
           model: data.model,
           brand: data.brand,
@@ -81,7 +81,7 @@ function PrintingInformation() {
       const id = localStorage.getItem('printId')
 
       await axios.put(
-        'https://spss-backend-2.vercel.app /api/printers/',
+        'https://spss-backend-2.vercel.app/api/printers/',
         {
           id: id,
           model: data.model,
@@ -121,7 +121,7 @@ function PrintingInformation() {
   const getPrint = async () => {
     try {
       const access = localStorage.getItem('access')
-      const res = await axios.get('https://spss-backend-2.vercel.app /api/printers/', {
+      const res = await axios.get('https://spss-backend-2.vercel.app/api/printers/', {
         headers: {
           Authorization: `Bearer ${access}`,
         },
@@ -153,7 +153,7 @@ function PrintingInformation() {
     }
     try {
       const access = localStorage.getItem('access')
-      await axios.delete(`https://spss-backend-2.vercel.app /api/printers/${id}/`, {
+      await axios.delete(`https://spss-backend-2.vercel.app/api/printers/${id}/`, {
         headers: {
           Authorization: `Bearer ${access}`,
         },
