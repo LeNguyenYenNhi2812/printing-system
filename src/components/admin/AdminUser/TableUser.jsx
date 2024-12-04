@@ -95,7 +95,7 @@ const [headers, setHeaders] = useState({});
 useEffect(() => {
   const fetchTokensAndData = async () => {
     try {
-      // const loginResponse = await axios.post('http://127.0.0.1:8000/api/users/login/', {
+      // const loginResponse = await axios.post('https://spss-backend-2.vercel.app /api/users/login/', {
       //   email: 'yennhi@hcmut.edu.vn',
       //   password: '12345',
       // });
@@ -105,7 +105,7 @@ useEffect(() => {
       };
       setHeaders(tokens);
 
-      const userResponse = await axios.get('http://127.0.0.1:8000/api/users', {
+      const userResponse = await axios.get('https://spss-backend-2.vercel.app /api/users', {
         headers: {
           Authorization: `Bearer ${tokens.access}`,
         },
@@ -126,7 +126,7 @@ useEffect(() => {
 // useEffect(()=>{
 //   const fetchUser = async () => {
 //   try{
-//   const fetchData = await axios.get('http://127.0.0.1:8000/api/users');
+//   const fetchData = await axios.get('https://spss-backend-2.vercel.app /api/users');
 //   setDocumentsList(fetchData.data);
 //   }catch(error){
 //     console.error('Error fetching data:', error);
