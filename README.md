@@ -26,7 +26,7 @@ You can create an user account on your own or using the two below:
 
 To log in as a student: (will take you to user site)
 
-Email: nghia@hcmut.edu.vn
+Email: lenguyenyennhi@hcmut.edu.vn
 Password: 12345
 To log in as an admin: (you will be taken to a seperate panel for admin user)
 
