@@ -1,9 +1,8 @@
 CNPM_HCMUT_SPSS
 Welcome to our HCMUT_SPSS.
 
-Have a look at our app by [clicking here](printing-system.vercel.app)
+Have a look at our app by [clicking here]([printing-system.vercel.app](https://printing-system.vercel.app/))
 
-[<img src="[./doc/asset/guesthome.png](https://raw.githubusercontent.com/quanghia24/my_SSPS/master/doc/asset/guesthome.png)">](printing-system.vercel.app)
 
 
 
