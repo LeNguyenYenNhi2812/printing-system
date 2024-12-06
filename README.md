@@ -1,7 +1,7 @@
 CNPM_HCMUT_SPSS
 Welcome to our HCMUT_SPSS.
 
-Have a look at our app by [clicking here]([printing-system.vercel.app](https://printing-system.vercel.app/))
+Have a look at our app by [clicking here](https://printing-system.vercel.app/)
 
 
 
