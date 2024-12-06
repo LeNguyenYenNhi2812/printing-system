@@ -16,7 +16,7 @@ function ForgotPassword() {
 
   const getToken = async () => {
     try {
-      const response = await axios.get('https://spss-backend-2.vercel.app/password-reset/')
+      const response = await axios.get('https://spss-backend-2.vercel.app//password-reset/')
 
       const html = response.data
       const parser = new DOMParser()

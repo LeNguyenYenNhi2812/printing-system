@@ -95,10 +95,6 @@ const [headers, setHeaders] = useState({});
 useEffect(() => {
   const fetchTokensAndData = async () => {
     try {
-      // const loginResponse = await axios.post('https://spss-backend-2.vercel.app/api/users/login/', {
-      //   email: 'yennhi@hcmut.edu.vn',
-      //   password: '12345',
-      // });
       const tokens = {
         refresh: localStorage.getItem("refresh"),
         access: localStorage.getItem("access"),
@@ -123,19 +119,6 @@ useEffect(() => {
   fetchTokensAndData();
 }, [documentsList]);
 
-// useEffect(()=>{
-//   const fetchUser = async () => {
-//   try{
-//   const fetchData = await axios.get('https://spss-backend-2.vercel.app/api/users');
-//   setDocumentsList(fetchData.data);
-//   }catch(error){
-//     console.error('Error fetching data:', error);
-//   }finally {
-//     setLoading(false); // Kết thúc loading
-//   }
-// };
-// fetchUser();
-// },[]);
 
 
   const DisplayData = currentItems.map((info) => (
